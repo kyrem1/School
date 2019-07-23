@@ -1,8 +1,17 @@
 \documentclass[12pt]{article}
+
+\usepackage[english]{babel}
+\usepackage{indentfirst}
+
 % - Margin - 1 inch on all sides
 \usepackage[letterpaper]{geometry}
-\usepackage{times}
+\usepackage[utf8]{inputenc}
 \geometry{top=1.0in, bottom=1.0in, left=1.0in, right=1.0in}
+
+% - Double Spacing -
+\usepackage{setspace}
+\doublespacing
+\setstretch{2.09}
 
 % FancyHDR settings
 \setlength{\headheight}{15.2pt}
@@ -10,24 +19,24 @@
 \pagestyle{fancy}
 \fancyhf{}
 
+% Indent First paragraph
+
+
 % \tq{TQ num}{CH num}
 \newcommand{\tq}[2]{
     \fancyhead[L]{James Harbour}
     \fancyhead[C]{Walden: Reading Journals}
-\fancyhead[R]{TQ:\ #1 CH: #2}
+\fancyhead[R]{TQ:\ #1 $\vert$ CH: #2}
 }
 
 % Begin Document
 \begin{document}
-\begin{flushleft}
+\raggedright\setlength{\parindent}{0.5in}
 
-%Change PG indentation to 0.5in%
-\setlength{\parindent}{0.5in}
+\tq{13}{1}
 
-\normalsize
-
+After listing the various ways in which mankind suffers from uncertainty, Thoreau follows with a quotation from Confucius providing a mindset able to transcend this anxiety and affect positive change. Directly following a celebration of the miracle of contemplation, Thoreau writes, ``Confucius said, `To know that we know what we know, and that we do not know what we do not know, that is true knowledge'" (7). Thoreau utilizes the ethos of Confucius to emphasize the quintessential example of an individual with the ability to surpass the strain of everyday life. This ideal alleviates the pessimism of the negative musings in the preceding paragraph through the provision of a concrete mindset to strive towards. This paragraph, taken as a whole, formulates a method of resisting descent into nihilismtic pessimism whilst simultaneously building its ethos. Thoreau first presents his understanding of the reasons behind why mankind ``commit[s] [it]sel[f] to uncertainties'' (7) to later strengthen the credibility of his solution: that the act of contemplation directly combats nihilistic pessimism.
 
 
 
-\end{flushleft}
 \end{document}
