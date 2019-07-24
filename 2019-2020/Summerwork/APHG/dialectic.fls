@@ -1,9 +1,9 @@
-PWD C:/Users/James Harbour/Desktop/School/2019-2020/Summerwork/APLang
+PWD C:/Users/James Harbour/Desktop/School/2019-2020/Summerwork/APHG
 INPUT c:/texlive/2018/texmf.cnf
 INPUT c:/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT walden.tex
-OUTPUT walden.log
+INPUT dialectic.tex
+OUTPUT dialectic.log
 INPUT c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2018/texmf-dist/tex/latex/base/size12.clo
@@ -19,6 +19,10 @@ INPUT c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 INPUT c:/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def
 INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
@@ -35,10 +39,9 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT walden.aux
-INPUT walden.aux
-OUTPUT walden.aux
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT dialectic.aux
+INPUT dialectic.aux
+OUTPUT dialectic.aux
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -47,9 +50,9 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-OUTPUT walden.pdf
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+OUTPUT dialectic.pdf
 INPUT c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT walden.aux
+INPUT dialectic.aux
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb

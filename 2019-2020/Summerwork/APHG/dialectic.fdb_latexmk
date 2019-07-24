@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1563998438 "walden.tex" "walden.pdf" "walden" 1563998439
+["pdflatex"] 1563926097 "dialectic.tex" "dialectic.pdf" "dialectic" 1563926097
   "c:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1552607716 3332 103109f5612ad95229751940c61aada0 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1552606545 1524 4414a8315f39513458b80dfc63bff03a ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1552606545 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -12,7 +12,6 @@
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1552606545 1120 8b7d695260f3cff42e636090a8002094 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1552606545 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1552605794 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1552605795 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1552605795 36118 fad905eba93cff5bce1e185fe980a177 ""
   "c:/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf" 1552605986 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def" 1552605968 74097 730193adbb112990f38051a05f35ac11 ""
@@ -29,14 +28,16 @@
   "c:/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty" 1552607825 41645 0653033a985e06c69a2a9cea9a95e31a ""
   "c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty" 1552607933 2591 6404d0c7d28505fb38ce0d86c2e28ae7 ""
   "c:/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty" 1552610708 22913 a27d7908fc6f0385466454a966a316eb ""
+  "c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty" 1552611496 12527 31ab547f6520657998ecf91709f950ac ""
   "c:/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty" 1552611496 1615 dba466e323af4fcd4a6acb87444d96c3 ""
+  "c:/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty" 1552611497 7145 01b7b53bf69f5c0f63803657eb51217f ""
   "c:/texlive/2018/texmf-dist/web2c/texmf.cnf" 1552608430 35176 ce7fee66be1fb01dfc6b702a7dbfa0ea ""
   "c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1552612218 3265573 655ac40406f2c37c0d9078d533adef20 ""
   "c:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1552612435 4223222 5ebd38102a92144674fa7e7de0ce21cd ""
   "c:/texlive/2018/texmf.cnf" 1552612180 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "walden.aux" 1563998439 30 00c4328e8c6c75fce40642ef2bcfb215 ""
-  "walden.tex" 1563998437 2166 9fac3f217c175dbdbfd76ce7295811dc ""
+  "dialectic.aux" 1563926097 30 00c4328e8c6c75fce40642ef2bcfb215 ""
+  "dialectic.tex" 1563926096 771 be32bded130862dda8caf8d6903571db ""
   (generated)
-  "walden.pdf"
-  "walden.aux"
-  "walden.log"
+  "dialectic.aux"
+  "dialectic.pdf"
+  "dialectic.log"
