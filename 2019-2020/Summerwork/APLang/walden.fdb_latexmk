@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1563998438 "walden.tex" "walden.pdf" "walden" 1563998439
+["pdflatex"] 1564171624 "walden.tex" "walden.pdf" "walden" 1564171625
   "c:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1552607716 3332 103109f5612ad95229751940c61aada0 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1552606545 1524 4414a8315f39513458b80dfc63bff03a ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1552606545 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -34,9 +34,9 @@
   "c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1552612218 3265573 655ac40406f2c37c0d9078d533adef20 ""
   "c:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1552612435 4223222 5ebd38102a92144674fa7e7de0ce21cd ""
   "c:/texlive/2018/texmf.cnf" 1552612180 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "walden.aux" 1563998439 30 00c4328e8c6c75fce40642ef2bcfb215 ""
-  "walden.tex" 1563998437 2166 9fac3f217c175dbdbfd76ce7295811dc ""
+  "walden.aux" 1564171624 30 00c4328e8c6c75fce40642ef2bcfb215 ""
+  "walden.tex" 1564171623 2888 a78b145b5d9e02fac9ef773acb50d295 ""
   (generated)
-  "walden.pdf"
   "walden.aux"
+  "walden.pdf"
   "walden.log"
