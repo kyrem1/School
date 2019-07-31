@@ -18,7 +18,7 @@
 
 - [ ] 9. Analyze a time when your reading changed (for example, you recognize a pattern, the text suddenly seems to be about something different from what you originally thought, you discover that you were misreading, you realize Thoreau has introduced a new context or perspective, or you were surprised or puzzled). Describe your thought process and realizations.
 
-- [ ] 10. Analyze Thoreau’s philosophy of transcendentalism using textual evidence.
+- [x] 10. Analyze Thoreau’s philosophy of transcendentalism using textual evidence.
 
 - [ ] 11. Analyze details that seem important and that make you take a second look: how does this relate to Thoreau’s purpose?
 
