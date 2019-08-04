@@ -12,7 +12,7 @@
 
 - [x] 6. Analyze the text’s argument: Is it implicit or explicit? How does Thoreau back his claim?
 
-- [ ] 7. Analyze Thoreau’s purpose: is it a question of fact, definition, quality or policy (stasis theory)? How do the rhetorical choices Thoreau makes relate to his purpose
+- [x] 7. Analyze Thoreau’s purpose: is it a question of fact, definition, quality or policy (stasis theory)? How do the rhetorical choices Thoreau makes relate to his purpose?
 
 - [x] 8. Conduct a detailed analysis of a short passage in terms of syntax. Describe the syntax and relate to Thoreau’s purpose.
 
