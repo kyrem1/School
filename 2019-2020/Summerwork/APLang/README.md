@@ -16,7 +16,7 @@
 
 - [x] 8. Conduct a detailed analysis of a short passage in terms of syntax. Describe the syntax and relate to Thoreau’s purpose.
 
-- [ ] 9. Analyze a time when your reading changed (for example, you recognize a pattern, the text suddenly seems to be about something different from what you originally thought, you discover that you were misreading, you realize Thoreau has introduced a new context or perspective, or you were surprised or puzzled). Describe your thought process and realizations.
+- [x] 9. Analyze a time when your reading changed (for example, you recognize a pattern, the text suddenly seems to be about something different from what you originally thought, you discover that you were misreading, you realize Thoreau has introduced a new context or perspective, or you were surprised or puzzled). Describe your thought process and realizations.
 
 - [x] 10. Analyze Thoreau’s philosophy of transcendentalism using textual evidence.
 
