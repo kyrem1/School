@@ -6,7 +6,7 @@
 
 - [x] 3. Who is the audience for the text (what are their beliefs, biases, background knowledge, etc.), and how does Thoreau adapt his message to this audience?
 
-- [ ] 4. What rhetorical devices and strategies do you notice (refer to the rhetorical terms which follow), and how do these contribute to Thoreau’s argument and purpose?
+- [x] 4. What rhetorical devices and strategies do you notice (refer to the rhetorical terms which follow), and how do these contribute to Thoreau’s argument and purpose?
 
 - [ ] 5. How do aspects of narrative development contribute to Thoreau’s argument and purpose?
 
