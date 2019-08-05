@@ -4,7 +4,7 @@
 
 - [ ] 2. Analyze the relationship between exigence and kairos: how does Thoreau take advantage of the given situation during this time period and respond using the best available means of persuasion?
 
-- [ ] 3. Who is the audience for the text (what are their beliefs, biases, background knowledge, etc.), and how does Thoreau adapt his message to this audience?
+- [x] 3. Who is the audience for the text (what are their beliefs, biases, background knowledge, etc.), and how does Thoreau adapt his message to this audience?
 
 - [ ] 4. What rhetorical devices and strategies do you notice (refer to the rhetorical terms which follow), and how do these contribute to Thoreau’s argument and purpose?
 
