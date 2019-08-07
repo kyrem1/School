@@ -8,7 +8,7 @@
 
 - [x] 4. What rhetorical devices and strategies do you notice (refer to the rhetorical terms which follow), and how do these contribute to Thoreau’s argument and purpose?
 
-- [ ] 5. How do aspects of narrative development contribute to Thoreau’s argument and purpose?
+- [x] 5. How do aspects of narrative development contribute to Thoreau’s argument and purpose?
 
 - [x] 6. Analyze the text’s argument: Is it implicit or explicit? How does Thoreau back his claim?
 
