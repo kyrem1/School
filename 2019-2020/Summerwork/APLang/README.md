@@ -20,7 +20,7 @@
 
 - [x] 10. Analyze Thoreau’s philosophy of transcendentalism using textual evidence.
 
-- [ ] 11. Analyze details that seem important and that make you take a second look: how does this relate to Thoreau’s purpose?
+- [x] 11. Analyze details that seem important and that make you take a second look: how does this relate to Thoreau’s purpose?
 
 - [x] 12. Analyze how Thoreau uses ambiguity and relate to his purpose.
 
