@@ -22,10 +22,10 @@
 
 - [ ] 11. Analyze details that seem important and that make you take a second look: how does this relate to Thoreau’s purpose?
 
-- [ ] 12. Analyze how Thoreau uses ambiguity and relate to his purpose.
+- [x] 12. Analyze how Thoreau uses ambiguity and relate to his purpose.
 
 - [x] 13. Select a passage in which either dialogue (see the chapter “Brute Neighbors”) or quotations are used for a particular effect and analyze the effect
 
-- [ ] 14. Provide examples of an effective aspect of Thoreau’s style from two different passages in the text and analyze why it is effective, comparing and contrasting its use in the two passages.
+- [x] 14. Provide examples of an effective aspect of Thoreau’s style from two different passages in the text and analyze why it is effective, comparing and contrasting its use in the two passages.
 
 - [ ] 15. Note your impressions of the way the text ended, and analyze how this affects your reading of the text.
