@@ -2,7 +2,7 @@
 
 - [x] 1. Describe the persona of the narrator (though Thoreau uses first person narration, he creates a narrative persona): what is revealed through tone, diction, syntax, etc. How does he create credibility (ethos: phronesis, arete and eunoia) and develop a relationship with the audience?
 
-- [ ] 2. Analyze the relationship between exigence and kairos: how does Thoreau take advantage of the given situation during this time period and respond using the best available means of persuasion?
+- [x] 2. Analyze the relationship between exigence and kairos: how does Thoreau take advantage of the given situation during this time period and respond using the best available means of persuasion?
 
 - [x] 3. Who is the audience for the text (what are their beliefs, biases, background knowledge, etc.), and how does Thoreau adapt his message to this audience?
 
