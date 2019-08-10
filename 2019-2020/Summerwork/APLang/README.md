@@ -28,4 +28,4 @@
 
 - [x] 14. Provide examples of an effective aspect of Thoreau’s style from two different passages in the text and analyze why it is effective, comparing and contrasting its use in the two passages.
 
-- [ ] 15. Note your impressions of the way the text ended, and analyze how this affects your reading of the text.
+- [x] 15. Note your impressions of the way the text ended, and analyze how this affects your reading of the text.
