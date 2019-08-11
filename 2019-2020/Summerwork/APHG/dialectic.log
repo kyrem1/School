@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.14)  11 AUG 2019 15:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.14)  11 AUG 2019 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -173,7 +173,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 66--68
 [1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Overfull \vbox (1.26973pt too high) has occurred while \output is active []
+Overfull \vbox (102.76973pt too high) has occurred while \output is active []
 
 
 [2]
@@ -188,7 +188,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 Here is how much of TeX's memory you used:
  1565 strings out of 492616
  20869 string characters out of 6132783
- 110448 words of memory out of 5000000
+ 112448 words of memory out of 5000000
  5497 multiletter control sequences out of 15000+600000
  7030 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -197,7 +197,7 @@ Here is how much of TeX's memory you used:
 mbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texli
 ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on dialectic.pdf (4 pages, 55971 bytes).
+Output written on dialectic.pdf (4 pages, 57383 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
