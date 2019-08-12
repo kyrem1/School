@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1565563078 "dialectic.tex" "dialectic.pdf" "dialectic" 1565563079
+["pdflatex"] 1565639621 "dialectic.tex" "dialectic.pdf" "dialectic" 1565639622
   "c:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1552607716 3332 103109f5612ad95229751940c61aada0 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1552606545 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1552606545 1288 655e228510b4c2a1abe905c368440826 ""
@@ -30,8 +30,8 @@
   "c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1552612218 3265573 655ac40406f2c37c0d9078d533adef20 ""
   "c:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1552612435 4223222 5ebd38102a92144674fa7e7de0ce21cd ""
   "c:/texlive/2018/texmf.cnf" 1552612180 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "dialectic.aux" 1565563079 105 acd3e9652956537cbac225398b4beac9 ""
-  "dialectic.tex" 1565563078 13115 dd9255a7dbbc40e1f29f5619913e32d0 ""
+  "dialectic.aux" 1565639622 105 acd3e9652956537cbac225398b4beac9 ""
+  "dialectic.tex" 1565639619 12889 0ef2aa39524325f0b6135f4ad7b79860 ""
   (generated)
   "dialectic.pdf"
   "dialectic.log"
