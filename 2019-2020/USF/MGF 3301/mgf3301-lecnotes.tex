@@ -1,0 +1,126 @@
+\documentclass{scrartcl}
+\usepackage[sexy]{james}
+\title{
+    \vspace{2in}
+    \textmd{\textbf{MGF 3301 :\ Bridge to Abstract Mathematics}}\\
+    \vspace{0.1in}\large{Professor: \textit{Brendan Nagle}}\\
+    \vspace{3in}
+    Notes by James Harbour
+}
+\begin{document}
+\maketitle
+\newpage
+
+\section{Exam 1 Proofs}
+
+\begin{theorem}[Bezout's Identity]
+  For all $a, b\in \N$,
+  \[
+    \gcd{(a,b)} = \min\{as+bt : s,t\in\Z\ \mathrm{satisfy}\ as+bt>0\}
+  \]
+\end{theorem}
+
+\begin{proof}
+  Let $a,b \in \N$ be positive integers and let $A = \{as+bt : s,t\in\Z\ \mathrm{satisfy}\ as+bt>0\}$. Set $D = \gcd{(a,b)}$. Because $A \subseteq \N$ and trivially $A \neq \nullset$, by the Well Ordering Principle there is a smallest element in $A$. Thus, set $m = \min{(A)}$. We now continue by proving two claims.
+
+  \begin{claim}[Easy Part]
+    $D \leq m$
+  \end{claim}
+
+  \begin{subproof}
+    Let $s_0, t_0 \in \Z$ satisfy $m = as_0 + bt_0$. Since $D \mid a$ and $D \mid b$, it follows that $D \mid (as_0 + bt_0)$. Thus, by our hypothesis, $D \mid m$, so by definition $D \leq m$.
+  \end{subproof}
+
+  \begin{claim}[Hard Part]
+    $D \geq m$
+  \end{claim}
+
+  \begin{subproof}
+    Consider that $(m\mid a \land m\mid b) \implies m\mid D \implies m \leq D$. So we show that $m\mid a \land m\mid b$. Assume, for the sake of contradiction, that \WLOG, $m \nmid a$.\\
+    By division with remainder, $\exists\ q=q_{m,a} \in \Z$ and $\exists\ r=r_{m,a} \in \Z$ such that
+    \begin{equation}\label{eq:1}
+      a = qm + r,\qquad 0 \leq r < m
+    \end{equation}
+    In fact, because $m\nmid a$, we know that $0 \leq r < m$. Since $m=as_0 + bt_0$,
+    \begin{align*}
+      a &= qm + r \\
+      &\by{\eqref{eq:1}}{=} q(as_0 + bt_0) + r \\
+      &=(qs_0)a + (qt_0)b + r \\
+      r &= (1 - qs_0)a + (-qt_0)b
+    \end{align*}
+    So, $r$ is an integer linear combination of $a$ and $b$ because $1 - qs_0 \in \Z$ and $-qt_0 \in \Z$. By division with remainder, $r > 0$ and $r < m$. So it follows that $r \in A$, however by the well ordering principle, m is the smallest element of $A$, thus we have reached a contradiction.
+  \end{subproof}
+\end{proof}
+
+\begin{lemma}[Euclid's Lemma]
+  For all $a, b, p \in \N$, if $p$ is prime and $p \mid ab$, then $p \mid a$ or $p \mid b$.
+\end{lemma}
+
+\begin{proof}
+  Let $a,b \in \N$ and let $p\in\N$ be prime with $p \mid ab$. If $p \mid a$ or $p \mid b$, then we are done. So, assume \WLOG\ that $p \nmid a$. Because $p$ is prime, its only divisors are $p$ and $1$, and since $p \nmid a$, it follows that $\gcd{(p, a)} = 1$. Thus, by Bezout's Identity, $\exists\ s,p \in \Z$ such that
+  \begin{align*}
+    as + pt &= 1 \\
+    abs + pbt &= b
+  \end{align*}
+  Because $p \mid ab\implies p \mid abs$ and $p \mid p \implies p \mid p(bt)$, we have that $p \mid (abs + pbt)$. Thus $p \mid b$.
+\end{proof}
+\newpage
+\section{Exam 2 Proofs}
+
+\begin{theorem}[Division with Remainder]
+  For all integers $a,b \in \Z$, where $a \neq 0$, there exist unique integers $q,r \in \Z$ such that \[ b = aq+r, \quad \mathrm{where\ } 0\leq r < |a|. \]
+\end{theorem}
+
+\begin{proof}[Existence Portion]
+  Let integers $a,b \in \Z$ be given, where $a \neq 0$. If $a \mid b$, then there exists some integer $k \in \Z$ such that $b = ka$. By choosing $q=k$ and $r=0$, we have that $b =aq+r$ with $0\leq r=0 < |a| \neq 0$ and are done. Thus, suppose that $a \nmid b$, with $a \neq 1$ and $b \neq 1$.
+
+  Consider the sets
+  \[\cR = \left\{b - am : m \in \Z \right\} \quad \mathrm{and} \quad \cR^{+} = \cR \cap \N.\]
+
+  \begin{claim}[W.O.P. Condition]
+    $\cR^{+} \neq \emptyset$
+  \end{claim}
+
+  \begin{subproof}
+    Choose $m = m_0 = -\displaystyle\frac{|a||b|}{a}$. Because $\displaystyle\frac{|a|}{a}=\pm 1 \in \Z$, we have that $m_0 = \pm |b| \in \Z$; thus $b-am_0 \in \cR$. With this choice, we have that
+    \begin{align*}
+      b - am_0 &= b - a\left(\frac{-|a||b|}{a}\right) \\
+      &= b + |a||b|  \\
+      &\geq -|b| + |a||b|  \\
+      &=|b|\left(|a| - 1\right) \by{\mathrm{hyp}}{\geq} 1
+    \end{align*}
+    Thus $b-am_0 \in \cR^{+}$, so $\cR^{+} \neq \emptyset$.
+  \end{subproof}
+
+  Because $\emptyset \neq \cR^{+} \subseteq \N$, the Well-Ordering Principle guarantees that $\cR^{+}$ admits a least element $r_0=\min{\cR^+}$, where we write $r_0 = b - aq_0$ for some positive integer $m = q_0 \in \Z$. Thus $b=aq_0+r_0$ with $r_0 \geq 1 > 0$ because $r_0 \in \cR$. We must now show that $r_0 < |a|$.
+
+  \begin{claim*}
+    $r_0 < |a|$
+  \end{claim*}
+  \begin{subproof}
+    Suppose, for the sake of contradiction, that $r_0 \geq |a|$. If $r_0 = |a|$, then
+    \begin{align*}
+      b &= aq_0 + r_0 \\
+      &= aq_0 + |a| \\
+      &= a\left(q_0 + \frac{|a|}{a}\right) = a\left(q_0 \pm 1\right)
+    \end{align*}
+    Thus $a \mid b$, which is a contradiction. If $r_0 > |a|$, i.e. $r_0 \geq |a| + 1$, then
+    \begin{align*}
+      b &= aq_0 + r_0 \\
+      & \geq aq_0 + |a| + 1 \\
+      &= a\left(q_0 + \frac{|a|}{a}\right) + 1
+    \end{align*}
+    And so the integer
+    \begin{equation*}
+      b - a\left(q_0 + \frac{|a|}{a}\right) \geq 1
+    \end{equation*}
+    belongs to $\cR^{+}$. On the other hand,
+    \begin{align*}
+      b - a\left(q_0 + \frac{|a|}{a}\right) &= b - aq_0 - |a| \\
+      &< b - aq_0 = r_0
+    \end{align*}
+    which is a contradiction, as $r_0$ is the smallest element of $\cR^{+}$. Thus, $r_0 < |a|$
+  \end{subproof}
+\end{proof}
+
+\end{document}

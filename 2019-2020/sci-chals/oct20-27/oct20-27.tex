@@ -1,0 +1,63 @@
+\documentclass{scrartcl}
+\usepackage[sexy]{james}
+\begin{document}
+\newpage
+
+\begin{example}[problem]
+  When $\cos{(x)}=\frac{4}{5}$ and $0 \leq x \leq \frac{\pi}{2}$, $\displaystyle\sum_{k=0}^{\infty}\frac{\cos{(kx)}}{5^k} = \frac{a}{b}$ for some coprime positive integers $a$ and $b$. Find $\displaystyle\frac{a}{b}$.
+\end{example}
+
+
+Utilizing Euler's formula, we find a complex definition for $\cos(x)$.
+\begin{equation}
+  e^{ix}\by{\mathrm{Euler}}{=}\cos(x) + i\sin(x) \label{eq:1}
+\end{equation}
+
+Substituting $-x$, we find that
+\begin{align}
+  \nonumber e^{-ix}&\by{\mathrm{Euler}}{=}\cos(-x) + i\sin(-x) \\
+  &\by{\mathrm{def}}{=}\cos(x) - i\sin(x) \label{eq:2}
+\end{align}
+
+Combining \eqref{eq:1} and \eqref{eq:2}, we see that
+\begin{align}
+  2\cos(x) &= e^{ix}+e^{-ix} \nonumber \\
+  \cos(x) &= \frac{e^{ix}+e^{-ix}}{2} \label{eq:3}
+\end{align}
+
+Thus, using \eqref{eq:3}, the original problem becomes
+\begin{align}
+  \sum_{k=0}^{\infty}\frac{\cos{(kx)}}{5^k} &= \sum_{k=0}^{\infty}\frac{e^{ikx}+e^{-ikx}}{2 \cdot 5^k} \nonumber\\
+  &= \frac{1}{2}\sum_{k=0}^{\infty}\frac{e^{ikx}}{5^k}+\frac{1}{2}\sum_{k=0}^{\infty}\frac{e^{-ikx}}{5^k} \nonumber\\
+  &= \frac{1}{2}\sum_{k=0}^{\infty}\left(\frac{e^{ix}}{5}\right)^k+\frac{1}{2}\sum_{k=0}^{\infty}\left(\frac{e^{-ix}}{5}\right)^k \nonumber\\
+  &=\frac{1}{2}\left(\frac{1}{1-\frac{e^{ix}}{5}} + \frac{1}{1-\frac{e^{-ix}}{5}}\right) \nonumber\\
+  &=\frac{1}{2}\left(\frac{5}{5-e^{ix}} + \frac{5}{5-e^{-ix}}\right) \label{eq:4}
+\end{align}
+
+We are given that $\cos(x)=\frac{4}{5}$. It follows then, by the fundamental theorem of trig, that $\sin(x)=\frac{3}{5}$. Thus we can apply euler's formula oncemore to find the values of $e^{ix}$ and $e^{-ix}$
+\begin{align}
+  e^{ix} &= \cos(x) + i\sin(x) \nonumber \\
+  &= \frac{4}{5} + \frac{3}{5}i \label{eq:5}
+\end{align}
+\begin{align}
+  e^{-ix} &= \cos(-x) + i\sin(-x) \nonumber \\
+  &= \cos(x) - i\sin(x) \nonumber \\
+  &= \frac{4}{5} - \frac{3}{5}i \label{eq:6}
+\end{align}
+
+Finally, substituting \eqref{eq:5} and \eqref{eq:6} into equation \eqref{eq:4}, we find that
+\begin{align*}
+  \sum_{k=0}^{\infty}\frac{\cos{(kx)}}{5^k} &=\frac{1}{2}\left(\frac{5}{5-e^{ix}} + \frac{5}{5-e^{-ix}}\right) \\
+  &=\frac{1}{2}\left(\frac{5}{5-\left(\frac{4}{5} + \frac{3}{5}i\right)} + \frac{5}{5-\left(\frac{4}{5} - \frac{3}{5}i\right)}\right) \\
+  &=\frac{1}{2}\left(\frac{25}{25-\left(4 + 3i\right)} + \frac{25}{25-\left(4 - 3i\right)}\right) \\
+  &=\frac{1}{2}\left(\frac{25}{21 + 3i} + \frac{25}{21 - 3i}\right) \\
+  &=\frac{1}{2}\left(\frac{25\left(21 - 3i\right)}{21^2 + 3^2} + \frac{25\left(21 + 3i\right)}{21^2 + 3^2}\right) \\
+  &=\frac{1}{2}\left(\frac{25(21) - 25(3)i + 25(3)i + 25(21)}{21^2 + 3^2}\right) \\
+  &=\frac{1}{2}\left(\frac{2(25)(21)}{21^2 + 3^2}\right) \\
+  &= \frac{7}{6}
+\end{align*}
+
+
+
+
+\end{document}
